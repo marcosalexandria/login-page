@@ -16,6 +16,6 @@ export const routes: Routes = [
     {
         path: "user",
         component: UserComponent,
-        canActivate: [AuthGuard]
+        canActivate: [AuthGuard] //verifica se pode navegar para essa tela
     }
 ];
